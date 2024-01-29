@@ -1,5 +1,5 @@
 # deep-learning-challenge
- Week 21 - 
+ Week 21 Assignment 
 
 ## Objective
 The objective of this challenge was to create a binary classifier which can predict whether applicants will be successful if funded by a fictitious nonprofit foundation, Alphabet Soup.
@@ -12,7 +12,7 @@ The following general steps were taken, with specific code/processes commented i
 
 ### Neural Network Model Report
 #### Overview
-    The purpose of this analysis is to discuss the performance of the learning model I created for the aforementioned client. The target performance was stated as > 75% accuracy. In an effort to achieve this target, I attempted to optimize the model by adjusting some hyperparameters, and show the effect of these changes on the model's accuracy. 
+   The purpose of this analysis is to discuss the performance of the learning model I created for the aforementioned client. The target performance was stated as > 75% accuracy. In an effort to achieve this target, I attempted to optimize the model by adjusting some hyperparameters, and show the effect of these changes on the model's accuracy. 
 
 #### Results
 Step 1 - Data Preprocessing
@@ -36,5 +36,5 @@ Model 4 - AlhabetSoupCharity_Optimization3.ipynb
     
     
 #### Summary
-    In conclusion, the model that achieved closest to the target accuracy (>75%) was the original model using the aforementioned hyperparameters. From my observations, adding a 3rd layer negatively affected the model's accuracy and resulted in lower than the reported % acuuracy scores, and using more than one activation function did not prove to be beneficial. 
-    Using the Keras Tuner library would have helped in taking the guess work out of model optimization, and let the tuner search for the best combination of hyperparameters to achieve greater accuracy.
+   In conclusion, the model that achieved closest to the target accuracy (>75%) was the original model using the aforementioned hyperparameters. From my observations, adding a 3rd layer negatively affected the model's accuracy and resulted in lower than the reported % acuuracy scores, and using more than one activation function did not prove to be beneficial. 
+   Using the Keras Tuner library would have helped in taking the guess work out of model optimization, and let the tuner search for the best combination of hyperparameters to achieve greater accuracy.
